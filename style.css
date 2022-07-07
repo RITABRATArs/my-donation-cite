@@ -3,7 +3,6 @@ body{
     margin: 0;
 }
 
-
 .top-banner{
     background-image: url(donation13.jpg);
     background-repeat: no-repeat;
@@ -163,17 +162,43 @@ body{
     padding: 20px;
     margin-top: -11px;
 }
-.content4{
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 50px;
-    text-align: center;
+    width: 809px;
+    height: 200px;
+    margin: 0 auto;
+    background-color:#FFF4D6 ;
+    
+}
+.last-input{
+    width: 275px;
+    height: 32px;
 
 }
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
+.subscribe{
+    width: 157px;
+    height: 38px;
+    background-color: #FF5959;
+    border: none;
     color: white;
+    margin-left: -4px;
+    
+}
+.footer{
+    background-color: black;
     text-align: center;
-  }
+    padding:15px 0px;
+    margin-top:50px;
+}
+.footer h3{
+    color: red;
+    font-size: 28px;
+    font-style: italic;
+}
+.footer p{
+    color: white;
+    font-size: 10px;
+}
